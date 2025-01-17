@@ -20,7 +20,7 @@ jobs:
         path: hello.txt
 
   download:
-      runs-on: ubunti-latest
+      runs-on: ubuntu-latest
 
       steps:
       - name: download artifact
